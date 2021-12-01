@@ -1,2 +1,3 @@
 # justiceWebsite
-A website to inform people about web security 
+
+A website to inform people about web security

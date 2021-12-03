@@ -11,7 +11,7 @@
   background-color: #ffd43b;
   width: 100%;
   position: 40px;
-  padding: 20px;
+  padding: 10px;
   
 }
 
@@ -23,8 +23,31 @@
 .navigation {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
   gap: 20px;
 }
+
+.navigation img{
+  height: 70px;
+  width: auto;
+  /* fixed-relative to the viewport*/
+    
+}
+
+.navigation a:link,.navigation a:visited{
+  text-decoration:none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color:#212529;
+}
+
+.navigation a:hover,.navigation a:active{
+  padding: 5px;
+  border-radius: 5px;
+  transition-duration: 0.5s;
+  background-color:yellow;
+}
+
 
 /*nav {
   float: right;

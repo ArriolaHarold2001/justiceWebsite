@@ -12,22 +12,22 @@
   margin: auto;
 }
 
-.navigation {
-  width: 30%;
-    margin: 0, auto;
+nav {
+  float: right;
 }
 
-.navigation ul {
-  list-style: none;
-  }
-  
-  .navigation li{
-      display: inline-block;
-      margin:  20px;
-      padding-top: 0px;
-      padding-bottom: 0px;
-      position: relative;
-  }
+nav ul {
+margin: 0%;
+list-style: none;
+}
+
+nav li{
+  display: inline-block;
+  margin:  20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  position: relative;
+}
 
 
 

@@ -8,7 +8,7 @@
 }
 
 .nav-header {
-  background-color: #f8f9fa;
+  background-color: #ffd43b;
   width: 100%;
   position: 40px;
   padding: 20px;
@@ -24,7 +24,6 @@
   display: flex;
   justify-content: flex-start;
   gap: 20px;
-
 }
 
 /*nav {
@@ -161,5 +160,14 @@ input[type="email"] {
 }
 
 /* ****** */
-/* FOOTER */
+footer{
+  padding: 10px;        
+    position: fixed;
+    bottom:0%;
+    width:100%;
+    background-color: #ffd43b;
+    text-align: center;
+    font-size: 14px;
+    
+}
 /* ****** */

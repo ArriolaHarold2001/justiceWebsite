@@ -7,13 +7,27 @@
   box-sizing: border-box;
 }
 
+.nav-header {
+  background-color: #f8f9fa;
+  width: 100%;
+  position: 40px;
+  padding: 20px;
+  
+}
+
 .container {
   width: 1200px;
   margin: auto;
 }
 
-<<<<<<< HEAD
-nav {
+.navigation {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+
+}
+
+/*nav {
   float: right;
 }
 
@@ -31,29 +45,6 @@ nav li{
 }
 
 
-=======
-.navigation {
-  padding: 30px;
-  background-color: red;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 20px;
-}
-
-/* 
-.navigation ul {
-  list-style: none;
-  }
-  
-  .navigation li{
-      display: inline-block;
-      margin:  20px;
-      padding-top: 0px;
-      padding-bottom: 0px;
-      position: relative;
-  } */
->>>>>>> d4f550e9663b1e683ec7bf7355abb78c8abecf39
 
 /* ********* */
 /* HOME PAGE */

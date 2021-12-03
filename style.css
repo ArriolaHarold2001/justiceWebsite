@@ -12,6 +12,7 @@
   margin: auto;
 }
 
+<<<<<<< HEAD
 nav {
   float: right;
 }
@@ -30,6 +31,29 @@ nav li{
 }
 
 
+=======
+.navigation {
+  padding: 30px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+/* 
+.navigation ul {
+  list-style: none;
+  }
+  
+  .navigation li{
+      display: inline-block;
+      margin:  20px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      position: relative;
+  } */
+>>>>>>> d4f550e9663b1e683ec7bf7355abb78c8abecf39
 
 /* ********* */
 /* HOME PAGE */

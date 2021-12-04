@@ -1,3 +1,6 @@
+/* 3.052rem/48.83px 2.441rem/39.06px 1.953rem/31.25px 1.563rem/25.00px 1.25rem/20.00px 1rem/16.00px*/
+/* FONT WEIGHT THIN 300, NORMAL 400, SEMI-BOLD 500, BOLD 700 */
+
 /* ************** */
 /* GENERAL STYLES */
 /* ************** */
@@ -6,8 +9,15 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.nav-header {
+  background-color: #ffd43b;
+  width: 100%;
+  position: 40px;
+  padding: 10px;
+}
 
 .container {
   width: 1200px;
@@ -25,25 +35,26 @@
   position: fixed;
 }
 
-.navigation img{
+.navigation img {
   height: 70px;
   width: auto;
   /* fixed-relative to the viewport*/
-    
 }
 
-.navigation a:link,.navigation a:visited{
-  text-decoration:none;
+.navigation a:link,
+.navigation a:visited {
+  text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
-  color:#212529;
+  color: #212529;
 }
 
-.navigation a:hover,.navigation a:active{
+.navigation a:hover,
+.navigation a:active {
   padding: 5px;
   border-radius: 5px;
   transition-duration: 0.5s;
-  background-color:yellow;
+  background-color: yellow;
 }
 
 .hero-header {
@@ -104,36 +115,42 @@ nav li{
   grid-row-gap: 10px;
   grid-column-gap: 10px;
   padding: 10px;
-  
+  text-align: center;
 }
 
 .grid-item1 {
-  background-color:#ffd43b;
-  
+  background-color: #ffd43b;
+  border-radius: 4%;
 }
 
 .grid-item1 {
-  background-color:#ffd43b;
+  background-color: #ffd43b;
+  border-radius: 4%;
 }
 
 .grid-item2 {
-  background-color:#ffd43b;
+  background-color: #ffd43b;
+  border-radius: 4%;
 }
 
 .grid-item3 {
-  background-color:#ffd43b;
+  background-color: #ffd43b;
+  border-radius: 4%;
 }
 
 .grid-item4 {
-  background-color:#ffd43b;
+  background-color: #ffd43b;
+  border-radius: 4%;
 }
 
 .grid-item5 {
-  background-color:#ffd43b;
+  background-color: #ffd43b;
+  border-radius: 4%;
 }
 
 .grid-item6 {
-  background-color:#ffd43b;
+  background-color: #ffd43b;
+  border-radius: 4%;
 }
 /* ************* */
 /* ABOUT US PAGE */

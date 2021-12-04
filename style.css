@@ -116,6 +116,7 @@ nav li{
   grid-column-gap: 10px;
   padding: 10px;
   text-align: center;
+  margin-bottom: 200px;
 }
 
 .grid-item1 {

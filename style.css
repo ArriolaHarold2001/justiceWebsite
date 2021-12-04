@@ -1,6 +1,9 @@
 /* 3.052rem/48.83px 2.441rem/39.06px 1.953rem/31.25px 1.563rem/25.00px 1.25rem/20.00px 1rem/16.00px*/
 /* FONT WEIGHT THIN 300, NORMAL 400, SEMI-BOLD 500, BOLD 700 */
 
+/* COLORS */
+/* BODY-BACKGROUND #f8f9fa, PRIMARY-COLOR #ffd43b, PRIMARY-SHADE #e67700, SECONDARY-COLOR #fcc419,  WHITE #f8f9fa */
+
 /* ************** */
 /* GENERAL STYLES */
 /* ************** */
@@ -9,17 +12,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Montserrat", sans-serif;
-}
-.nav-header {
-  background-color: #ffd43b;
-  width: 100%;
-  padding: 10px;
+  font-size: 1rem;
+  font-weight: 400;
+  background-color: #f8f9fa;
 }
 
 .container {
   width: 1200px;
+  height: 100vh;
   margin: auto;
 }
 
@@ -30,7 +33,9 @@ body {
   gap: 20px;
   background-color: #ffd43b;
   width: 100%;
-  padding: 10px;
+  padding: 5px;
+  font-size: 1.25rem;
+  font-weight: 500;
 }
 
 .navigation img {
@@ -52,7 +57,7 @@ body {
   padding: 5px;
   border-radius: 5px;
   transition-duration: 0.5s;
-  background-color: yellow;
+  background-color: #ffff00;
 }
 
 .hero-header {
@@ -68,6 +73,7 @@ body {
   color: #f8f9fa;
   text-align: center;
   font-size: 3.052rem;
+  margin-bottom: 60px;
 
   display: flex;
   align-items: center;
@@ -83,6 +89,26 @@ body {
 /* ************* */
 /* SOLUTION PAGE */
 /* ************* */
+
+.section_solutions h1 {
+  font-size: 2.441rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+.section_solutions p {
+  font-size: 1.563rem;
+  font-weight: 500;
+}
+
+.solutions-item {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+
+  padding: 25px;
+  margin-bottom: 30px;
+}
 
 /* ************** */
 /* RESOURCES PAGE */
@@ -145,12 +171,14 @@ body {
 /* ************ */
 
 .contact-form {
-  background-color: #087f5b;
-  color: #f8f9fa;
+  background-color: #fcc419;
+  color: #212529;
   padding: 50px;
+  border-radius: 30px;
   font-size: 1rem;
   font-weight: 400;
   text-transform: uppercase;
+  margin: 60px 0;
 
   display: flex;
   flex-direction: column;
@@ -177,7 +205,7 @@ body {
 input[type="text"] {
   font-size: 1.25rem;
   font-weight: 400;
-  background-color: #38d9a9;
+  background-color: #ffd43b;
   outline: none;
   border: none;
   border-radius: 10px;
@@ -186,7 +214,7 @@ input[type="text"] {
 input[type="email"] {
   font-size: 1.25rem;
   font-weight: 400;
-  background-color: #38d9a9;
+  background-color: #ffd43b;
   outline: none;
   border: none;
   border-radius: 10px;
@@ -195,7 +223,7 @@ input[type="email"] {
 
 .form-item textarea {
   border: none;
-  background-color: #38d9a9;
+  background-color: #ffd43b;
   resize: none;
   font-size: 1.25rem;
   font-weight: 500;
@@ -209,6 +237,10 @@ input[type="email"] {
   outline: none;
 }
 
+::placeholder {
+  color: #212529;
+}
+
 .form-btn {
   border: none;
   font-size: 1.25rem;
@@ -216,20 +248,23 @@ input[type="email"] {
   text-transform: uppercase;
   color: #f8f9fa;
   padding: 15px 0;
-  background-color: #087f5b;
+  background-color: #e67700;
   border-radius: 30px;
 
   box-shadow: 0px 1px 5px#212529;
 }
 
 .form-btn:hover {
-  background-color: #099268;
+  background-color: #f08c00;
 }
 .form-btn:active {
-  background-color: #0ca678;
+  background-color: #f59f00;
 }
 
-/* ****** */
+/* **************** */
+/* UNIVERSAL FOOTER */
+/* **************** */
+
 footer {
   padding: 10px;
 
@@ -238,4 +273,3 @@ footer {
   text-align: center;
   font-size: 14px;
 }
-/* ****** */

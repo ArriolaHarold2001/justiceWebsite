@@ -171,12 +171,11 @@ body {
 /* ************ */
 
 .contact-form {
-  background-color: #fcc419;
   color: #212529;
   padding: 50px;
   border-radius: 30px;
-  font-size: 1rem;
-  font-weight: 400;
+  font-size: 1.25rem;
+  font-weight: 500;
   text-transform: uppercase;
   margin: 60px 0;
 
@@ -210,6 +209,7 @@ input[type="text"] {
   border: none;
   border-radius: 10px;
   box-shadow: 0px 1px 5px#212529;
+  text-transform: uppercase;
 }
 input[type="email"] {
   font-size: 1.25rem;
@@ -219,6 +219,7 @@ input[type="email"] {
   border: none;
   border-radius: 10px;
   box-shadow: 0px 1px 5px#212529;
+  text-transform: uppercase;
 }
 
 .form-item textarea {
@@ -238,7 +239,7 @@ input[type="email"] {
 }
 
 ::placeholder {
-  color: #212529;
+  color: #fff9db;
 }
 
 .form-btn {

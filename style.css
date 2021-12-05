@@ -22,7 +22,6 @@ body {
 
 .container {
   width: 1200px;
-  height: 100vh;
   margin: auto;
 }
 
@@ -90,15 +89,28 @@ body {
 /* SOLUTION PAGE */
 /* ************* */
 
+.section_solutions {
+  margin: 60px 0;
+}
+
 .section_solutions h1 {
   font-size: 2.441rem;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
 }
+.section_solutions h2 {
+  display: inline-block;
+  font-size: 1.953rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  border-bottom: dotted 3px #212529;
+}
 .section_solutions p {
-  font-size: 1.563rem;
+  font-size: 1.25rem;
   font-weight: 500;
+  line-height: 1.953rem;
 }
 
 .solutions-item {
@@ -106,8 +118,12 @@ body {
   align-items: center;
   gap: 25px;
 
-  padding: 25px;
-  margin-bottom: 30px;
+  height: 60vh;
+}
+
+.solutions-item img {
+  width: 616px;
+  height: 311px;
 }
 
 /* ************** */

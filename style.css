@@ -72,6 +72,8 @@ body {
   color: #f8f9fa;
   text-align: center;
   font-size: 3.052rem;
+  text-shadow: -1px -1px 2px #ffd43b, 1px -1px 2px #e67700, -5px 5px 5px #212529,
+    1px 1px 5px #212529;
 
   display: flex;
   align-items: center;

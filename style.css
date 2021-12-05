@@ -93,6 +93,34 @@ body {
   gap: 2rem;
 }
 
+.header-two{
+  text-align: center;
+  font-size: 1.8rem;
+  padding: 2rem;
+line-height: 2.4rem;
+
+}
+
+.header-two h2{
+  margin-bottom: 1.5rem;
+  border-bottom: 0.4rem dashed #212529;
+  display: inline-block;
+}
+
+.cta-button a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #e67700;
+  
+}
+
+.cta-button a:hover{
+  border-radius: 0.5rem;
+  transition-duration: 0.5s;
+  background-color: #ffff00;
+  font-size: 1.9rem;
+}
 /* ********* */
 /* HOME PAGE */
 /* ********* */

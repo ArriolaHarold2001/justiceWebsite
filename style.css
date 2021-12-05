@@ -218,7 +218,7 @@ body {
 
 input[type="text"] {
   font-size: 1.25rem;
-  font-weight: 400;
+  font-weight: 500;
   background-color: #ffd43b;
   outline: none;
   border: none;
@@ -228,7 +228,7 @@ input[type="text"] {
 }
 input[type="email"] {
   font-size: 1.25rem;
-  font-weight: 400;
+  font-weight: 500;
   background-color: #ffd43b;
   outline: none;
   border: none;
@@ -238,6 +238,7 @@ input[type="email"] {
 }
 
 .form-item textarea {
+  font-family: "Montserrat", sans-serif;
   border: none;
   background-color: #ffd43b;
   resize: none;
@@ -254,7 +255,7 @@ input[type="email"] {
 }
 
 ::placeholder {
-  color: #fff9db;
+  color: #343a40;
 }
 
 .form-btn {

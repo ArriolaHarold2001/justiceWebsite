@@ -175,9 +175,9 @@ body {
 .grid-container {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 150px 150px 150px;
+  grid-template-rows: 200px 200px 200px;
   grid-row-gap: 10px;
-  grid-column-gap: 10px;
+  grid-column-gap: 20px;
   padding: 10px;
   text-align: center;
   margin-bottom: 200px;
@@ -216,6 +216,11 @@ body {
 .grid-item6 {
   background-color: #ffd43b;
   border-radius: 4%;
+}
+
+.resourcesimages img{
+  width: 125px;
+  height: 100px;
 }
 /* ************* */
 /* ABOUT US PAGE */

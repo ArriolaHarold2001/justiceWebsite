@@ -180,7 +180,7 @@ body {
   grid-column-gap: 20px;
   padding: 10px;
   text-align: center;
-  margin-bottom: 200px;
+  margin-bottom: 50px;
 }
 
 .grid-container a:link,
@@ -197,6 +197,10 @@ body {
 .grid-container h2 {
   background-color: #212529;
   font-size: large;
+}
+
+.grid-container h4 {
+  font-size: small;
 }
 
 .grid-item1 {

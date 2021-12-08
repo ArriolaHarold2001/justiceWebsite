@@ -179,8 +179,9 @@ body {
   grid-row-gap: 10px;
   grid-column-gap: 20px;
   padding: 10px;
+  margin: 15px;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 45px;
 }
 
 .grid-container a:link,

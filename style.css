@@ -241,6 +241,7 @@ body {
 .resourcesimages img {
   width: 125px;
   height: 100px;
+  padding: 4px;
 }
 /* ************* */
 /* ABOUT US PAGE */
